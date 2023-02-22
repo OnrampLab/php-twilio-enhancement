@@ -1,28 +1,24 @@
 {
-    "name": "onramplab/composer-package-template",
-    "description": "An composer template",
+    "name": "onramplab/php-twilio-enhancement",
+    "description": "enhancement for PHP twilio sdk",
     "type": "library",
     "license": "MIT",
     "keywords": [
-        "template",
-        "composer",
-        "package",
-        "skeleton",
-        "boilerplate",
-        "composer template",
-        "package template",
-        "composer package template"
+        "twilio",
+        "php",
+        "enhancement"
     ],
     "authors": [
         {
-            "name": "Onramplab",
+            "name": "Onramp Lab",
             "email": "dev@onramplab.com"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "twilio/sdk": "^6.42.1"
     },
     "require-dev": {
         "mockery/mockery": "^1.5",
@@ -38,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Onramplab\\ComposerPackageTemplate\\": "src/"
+            "Onramplab\\TwilioEnhancement\\": "src/"
         }
     },
     "extra": {
